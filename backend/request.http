@@ -1,0 +1,45 @@
+//get all users
+
+###
+GET     http://[::1]:4000/users
+
+//gwt a single users
+###
+GET     http://[::1]:4000/users/1
+
+
+//register  user
+//register
+//login
+//signup
+###
+POST http://[::1]:4000/login
+content-type: application/json
+
+{
+  "email":"livh@gmail.com",
+  "password": "123456789"
+}
+
+//get all bookings
+
+###
+ http://[::1]:4000/bookings
+
+//booking per user
+###
+ http://[::1]:4000/users/2/bookings
+   
+
+   //list users
+###
+http://[::1]:000/listings
+
+
+# POST   http://[::1]:3000/users
+# content-type: application/json
+
+{
+    "name": "airbnb ",
+    "time": "phumudzo"
+}

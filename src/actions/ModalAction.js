@@ -1,0 +1,14 @@
+import { OPEN_MODAL } from "../components/ModalTypes";
+
+
+export const openModal=(openClose,content)=>{
+    return{
+        type:OPEN_MODAL,
+        payload:{
+            openClose,
+            content,
+        }
+    };
+       
+    
+}
